@@ -1,3 +1,4 @@
+package org.example;
 /*
  * Copyright (C) 2024. by flatexDEGIRO AG, Frankfurt (Main), Germany. All Rights Reserved.
  */
