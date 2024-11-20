@@ -1,0 +1,8 @@
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y openjdk-17-jdk
+      export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+      export PATH=$JAVA_HOME/bin:$PATH
+    command: mvn clean compile
+
